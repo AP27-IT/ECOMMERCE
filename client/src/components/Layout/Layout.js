@@ -4,9 +4,9 @@ import Header from "./Header";
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <main style={{ minHeight: "70vh" }}>{children}</main>
+      <main className="flex-grow min-h-[70vh]">{children}</main>
       <Footer />
     </div>
   );

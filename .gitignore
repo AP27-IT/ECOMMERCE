@@ -1,0 +1,10 @@
+# Root
+node_modules/
+.env
+.DS_Store
+
+# Client build
+client/build/
+client/node_modules/
+client/client-dev.out
+client/client-dev.err
